@@ -116,9 +116,9 @@
 <script>
     function F__ID(){
         //----------------------------------
-        VmInclude:__BASE__/vmiis/Common-Code/grid/form.js
-        VmInclude:__BASE__/woolcock-imr/hdeeg-mci/common-code/participant.js
-        VmInclude:__BASE__/vmiis/Common-Code/style/ease-in-out.js
+        VmInclude:__PARTS__/grid/form.js
+        VmInclude:__PARTS__/style/ease-in-out.2.js
+    		VmInclude:__CURRENT_PATH__/task.form.js
         //----------------------------------
         $('#D__ID').on('load',function(){
             _init();
@@ -155,7 +155,7 @@
                     break;
                     case 'caffeine':
                         if(_records[I][field]=="1" || _records[I][field]=="True" || _records[I][field]=="on" ) $(this).prop('checked', true);
-                        $(this).on('click', function(){ 
+                        $(this).on('click', function(){
                             if($(this).prop("checked") == true)   _set_value("1",_records,I,field);
                             else                                  _set_value("0",_records,I,field);
                         });
