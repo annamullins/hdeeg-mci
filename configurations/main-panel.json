@@ -41,14 +41,14 @@
 								"table_id":"20011118",
 								"url":"https://annamullins.github.io/hdeeg-mci/modules/task_notes.html",
 								"counting":"1"
-							}
-						]
-					}
-				]
-			}
-			[
-				{
-				"sections":
+						  	}
+					  	]
+				  	}
+				  ]
+			  }
+			]
+	},
+	 	"sections":
 				[
 					{
 						"name":"General information",
@@ -109,13 +109,9 @@
 								"url":"https://annamullins.github.io/hdeeg-mci/modules/task/medical_history.form.html"
 							}
 						]
-					}
-				]
-			}
-						[
-							{
-								"sections":
-								[
+					},
+          	"sections",
+            				[
 									{
 										"name":"Adverse Events & Concom",
 										"modules":
@@ -144,11 +140,9 @@
 								}
 							]
 						}
-					]
-				}
-								[
-
-									{
+					],
+					[
+					{
 									"sections":
 									[
 										{
@@ -224,8 +218,7 @@
 										"name":"PSG Research Report",
 										"table_id":"20011120",
 										"url":"https://annamullins.github.io/hdeeg-mci/modules/task/under_construction.html",
-										"counting":"1",
-
+										"counting":"1"
 									}
 									,{
 										"module_id":"IncluExclu",
@@ -240,7 +233,7 @@
 										"module_id":"IncluExclu_form",
 										"table_id":"20011120",
 										"url":"https://annamullins.github.io/hdeeg-mci/modules/task/IncluExclu.form.html"
-									}
+									},
 									[
 										{
 										"sections":
@@ -255,6 +248,9 @@
 											 {
 											 }
 										 ]
-										 }
-										 ]
-										 }
+										}
+									  ]
+										}
+									  ]
+										}
+									
