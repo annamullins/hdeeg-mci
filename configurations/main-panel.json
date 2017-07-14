@@ -46,7 +46,8 @@
 					}
 				]
 			}
-			,{
+			[
+				{
 				"sections":
 				[
 					{
@@ -107,7 +108,8 @@
 								"table_id":"20011120",
 								"url":"https://annamullins.github.io/hdeeg-mci/modules/task/medical_history.form.html"
 							}
-							,{
+						[
+							{
 								"sections":
 								[
 									{
@@ -136,7 +138,9 @@
 									"table_id":"20011120",
 									"url":"https://annamullins.github.io/hdeeg-mci/modules/task/Concom_Medication.form.html"
 								}
-								{
+								[
+
+									{
 									"sections":
 									[
 										{
@@ -229,7 +233,8 @@
 										"table_id":"20011120",
 										"url":"https://annamullins.github.io/hdeeg-mci/modules/task/IncluExclu.form.html"
 									}
-									{
+									[
+										{
 										"sections":
 										[
 											{
