@@ -126,7 +126,7 @@
                      {
                         "module_id" : "Concom_form",
                         "table_id" : "20011120",
-                        "url" : "https://annamullins.github.io/hdeeg-mci/modules/task/Concom_Medication.form.html"
+                        "url" : "https://annamullins.github.io/hdeeg-mci/modules/task/concom_medication.form.html"
                      }
                   ]
                },
@@ -147,7 +147,7 @@
                         "url" : "https://annamullins.github.io/hdeeg-mci/modules/task/under_construction.html",
                         "counting" : "1",
                         "quest" : "1",
-                        "form_module" : "antrho_form"
+                        "form_module" : "anthro_form"
                      },
                      {
                         "module_id" : "anthro_form",
@@ -221,6 +221,52 @@
                }
             ]
          }
-      ]
-   }
-}
+      ]	 {
+            "sections" : [
+               {
+					"name" : "Baseline Visit",
+					"modules" : [
+					{
+					"module_id" : "BL_Visit_date",
+					"name" : "Visit Date",
+					"table_id" : "20011120",
+					"url" : "https://annamullins.github.io/hdeeg-mci/modules/task/Visit_date.html",
+					"counting" : "1"
+					},
+					{
+					"module_id" : "BL_Anthro",
+					"name" : "Anthropometry",
+					"table_id" : "20011120",
+					"url" : "https://annamullins.github.io/hdeeg-mci/modules/task/Anthro.html",
+					"counting" : "1"
+					},
+					{
+					"module_id" : "BL_ESS",
+					"name" : "Epworth Sleepiness Scale (ESS)",
+					"table_id" : "20011120",
+					"url" : "https://annamullins.github.io/hdeeg-mci/modules/task/Epworth_Sleepiness_Scale.html",
+					"counting" : "1",
+					"quest" : "1",
+					"form_module" : "BL_ESS_form"
+					 },
+					 {
+					"module_id" : "BL_ESS_form",
+					"table_id" : "20011120",
+					"url" : "https://annamullins.github.io/hdeeg-mci/modules/task/Epworth_Sleepiness_Scale.form.html"
+					 }
+					 {
+					"module_id" : "BL_ISI",
+					"name" : "Insomnia Severity Index (ISI)",
+					"table_id" : "20011120",
+					"url" : "https://annamullins.github.io/hdeeg-mci/modules/task/Insomnia_Severity_Index.html",
+					"counting" : "1",
+					"quest" : "1",
+					"form_module" : "BL_ISI_form"
+					 },
+					{
+					"module_id" : "BL_ISI_form",
+					"table_id" : "20011120",
+					"url" : "https://annamullins.github.io/hdeeg-mci/modules/task/Insomnia_Severity_Index.form.html"
+					},
+
+					
