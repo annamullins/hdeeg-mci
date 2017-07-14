@@ -136,13 +136,13 @@
 									"table_id":"20011120",
 									"url":"https://annamullins.github.io/hdeeg-mci/modules/task/Concom_Medication.form.html"
 								}
-								,{
+								{
 									"sections":
 									[
 										{
 											"name":"Screening",
 											"modules":
-									}
+									[
 									,{
 										"module_id":"Visit_date",
 										"name":"Visit Date",
