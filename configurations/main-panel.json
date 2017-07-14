@@ -113,14 +113,14 @@
 									{
 										"name":"Adverse Events & Concom",
 										"modules":
-								},
+							[
 								{
 									"module_id":"Adverse_events",
 									"name":"Adverse Events",
 									"table_id":"20011120",
 									"url":"https://annamullins.github.io/hdeeg-mci/modules/task/Adverse_Event.html",
 									"counting":"1",
-									"quest":"1",
+
 								}
 								,{
 									"module_id":"Concom_meds",
@@ -149,7 +149,7 @@
 										"table_id":"20011120",
 										"url":"https://annamullins.github.io/hdeeg-mci/modules/task/Visit_date.html",
 										"counting":"1",
-										"quest":"1",
+
 									}
 									,{
 										"module_id":"Anthropometry",
@@ -213,7 +213,7 @@
 										"table_id":"20011120",
 										"url":"https://annamullins.github.io/hdeeg-mci/modules/task/under_construction.html",
 										"counting":"1",
-										"quest":"1",
+
 									}
 									,{
 										"module_id":"IncluExclu",
